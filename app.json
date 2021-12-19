@@ -12,7 +12,7 @@
     "repository": "https://github.com/TroJanzHEX/Auto-Filter-Bot-V2",
     "success_url": "https://telegram.dog/TroJanzHEX",
     "env": {
-        "BOT_TOKEN": {
+        "BOT_ID": {
             "description": "You Telegram Bot Token from @BotFather",
             "value": ""
         },
@@ -24,16 +24,20 @@
             "description": "Your APP ID from my.telegram.org or @UseTGXBot",
             "value": ""
         },
-        "TG_USER_SESSION": {
+        "INLINE_BOT_TOKEN": {
             "description": "A pyrogram user session string. Generate from https://repl.it/@prgofficial/String-Gen",
             "value": ""
         },
-        "AUTH_USERS": {
+        "MAIN_BOT_TOKEN": {
             "description": "ID of users that can use the bot commands",
             "value": ""
         },
-        "DATABASE_URI": {
+        "MONGO_DB_URL": {
             "description": "Database URL from https://cloud.mongodb.com/",
+            "value": ""        
+        },
+        "MAIN_GROUP_ID": {
+            "description": "maingroup id",
             "value": ""        
         }
     },
